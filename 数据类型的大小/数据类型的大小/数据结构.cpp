@@ -166,6 +166,7 @@ int main()
 }
 #endif
 
+#if 0
 #include <stdio.h>
 int main()
 {
@@ -175,3 +176,31 @@ int main()
 		printf("i = %d \n", i);
 	}
 }
+#endif
+//
+//#include <stdio.h>
+//int main() {
+//	int line = 0;
+//	printf("加入比特\n");
+//	while (line < 20000)
+//	{
+//		printf(" 唐例如是猪：%d\n", line);
+//		line++;
+//	}
+//	if (line >= 20000) {
+//		printf("得到offer\n");
+//	}
+//	return 0;
+//}
+
+#include <stdio.h>
+#include <string.h>
+int main()
+	{
+		int a = 10;
+        printf("%d\n", a);
+        printf("%d\n", sizeof(a));  //sizeof计算的是变量/类型所占空间的大小，单位是字节
+		printf("%d\n", sizeof a);
+		printf("%d\n", sizeof(int));
+		printf("%d\n", sizeof int);   //括号不能省略0
+ 	}
